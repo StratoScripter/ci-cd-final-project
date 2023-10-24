@@ -10,7 +10,7 @@ on:
 
 jobs:
   build: 
-    runs_on: ubuntu-latest
+    run: ubuntu-latest
     container: python:3.9-slim
     steps: 
       - name: Checkout
